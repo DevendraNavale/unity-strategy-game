@@ -46,3 +46,51 @@ The goal is to destroy the enemy base while protecting the player base.
 - Add UI for health bars and resources
 - Improve unit AI and animations
 - Add more unit types and levels
+
+# Project Title – Match & Battle System (Unity)
+
+## Overview
+(Original Task-1 description – short)
+
+## Task-1 Summary (Prototype Phase)
+- What was built
+- What worked
+- Known limitations
+
+## Task-2 Upgrade: Stability & Production Hardening
+(This is NEW – main focus now)
+
+### Architecture
+- MatchManager
+- UnitRegistry
+- ResourceManager
+- Spawners (Player & Enemy)
+
+### Key Improvements
+- Restart-safe match lifecycle
+- Army caps & cooldowns
+- Deterministic spawning
+- Registry-based combat lookup
+- Reduced GC allocations
+- Stable 3–5 min runtime
+
+### Constraints
+- No FindGameObjectsWithTag spam
+- No per-frame allocations
+- No scene-dependent logic
+
+### Engineering Decisions
+- Why UnitRegistry exists
+- Why ScriptableObjects for tuning
+- Why spawn cooldown ticks even on failure
+
+### Stability Proof
+- Restart test results
+- Max unit count tested
+- Known safe limits
+
+### Future Hooks
+- Difficulty curves
+- AI behavior modules
+- Multiplayer sync layer
+
