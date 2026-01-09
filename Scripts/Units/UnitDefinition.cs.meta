@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 73ea867a9978c2b4797c43b01cda0d22
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - goldResource: {fileID: 11400000, guid: 12b1d1bc43420ce4899905cc0c278fc0, type: 2}
+  - energyResource: {fileID: 11400000, guid: fe87792d1fbe6544d8152683cb5a7dcb, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
